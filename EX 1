@@ -1,0 +1,11 @@
+nome=[]
+altura=[]
+base=50
+
+for i in range (base):
+    nome.append(input('digite um nome'))
+    altura.append(float(input('digite a altura')))
+print('pessoas com mais de 1.70cm são:')
+for i in range(base):
+    if altura[i]>1.7:
+         print(nome[i])
