@@ -1,4 +1,6 @@
 mat=[]
+nome=[]
+tel=[]
 salbruto=[]
 base=3
 desc=int
@@ -9,6 +11,9 @@ for i in range (base):
     salbruto.append(float(input('digite o salario bruto:')))
     desc=(salbruto[i]*11)/100
     codigo=mat
+for i in range(base):
+    print('='*100)
     print('seu salario é:{:.2f}'.format(salbruto[i]))
     print('seu desconto é:{:.1f}'.format(desc))
     print('sua matricula é:',codigo[i])
+print('=' * 100)
